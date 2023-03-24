@@ -1,14 +1,15 @@
 package post
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestNewPost(t *testing.T) {
 
 	title := "Is Platform Engineer a real job?"
-	desc := "Put your thoughts here"
+	desc := "Put your thoughts here dude"
 
 	post, err := NewPost(title, desc)
 
