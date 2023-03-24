@@ -33,11 +33,11 @@ func NewPost(title string, desc string) (*Post, error) {
 func (c Post) Validate() error {
 
 	if c.Title == "" {
-		return errors.New("Title is required")
+		return errors.New("Title is required!")
 	}
 
 	if c.Desciption == "" {
-		return errors.New("Description is required")
+		return errors.New("Description is required!")
 	}
 
 	return nil
